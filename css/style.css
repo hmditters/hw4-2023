@@ -24,9 +24,6 @@ nav a:focus {
   }
 
 
-
-
-
   /* Requirement 3 code here -- Do not remove this comment. */
 
   .container {
@@ -38,7 +35,7 @@ nav a:focus {
   /* Requirement 4 code here -- Do not remove this comment. */
 
   .intro {
-    background:#858585 url("images/header.jpg");
+    background: url("images/header.jpg") #858585;
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -89,7 +86,7 @@ nav a:focus {
   /* Requirement 9 code here -- Do not remove this comment.*/
 
   .text {
-    align-content: center;
+    align-self: center;
     max-height: 40vh;
     overflow: scroll;
   }
