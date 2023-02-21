@@ -86,12 +86,12 @@ nav a:focus {
   }
 
 
-  /* Requirement 9 code here -- Do not remove this comment. Add scroll bar (overflow auto, one line. look up reading). Align content is close but different term.*/
+  /* Requirement 9 code here -- Do not remove this comment.*/
 
   .text {
     align-content: center;
     max-height: 40vh;
-    overflow: auto;
+    overflow: scroll;
   }
 
 
@@ -110,7 +110,7 @@ nav a:focus {
   }
 
 
-  /* Requirement 11 code here -- Do not remove this comment. Also need to add line.*/
+  /* Requirement 11 code here -- Do not remove this comment.*/
 
   a.skip:focus {
     left: 0px;
